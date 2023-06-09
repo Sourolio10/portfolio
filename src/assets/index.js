@@ -17,6 +17,7 @@ import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
+import sign from "./sign.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
@@ -29,7 +30,8 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import cinema from "./cinema.png"
+import churn from "./churn.png"
 export {
   logo,
   backend,
@@ -59,4 +61,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  cinema,
+  churn,
+  sign,
 };

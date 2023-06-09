@@ -20,6 +20,9 @@ import {
   tesla,
   shopify,
   carrent,
+  cinema,
+  sign,
+  churn,
   jobit,
   tripguide,
   threejs,
@@ -65,14 +68,6 @@ const technologies = [
     icon: html,
   },
   {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
     name: "TypeScript",
     icon: typescript,
   },
@@ -81,8 +76,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "CSS 3",
+    icon: css,
   },
   {
     name: "Tailwind CSS",
@@ -101,12 +96,20 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "git",
-    icon: git,
-  },
-  {
     name: "figma",
     icon: figma,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
+    name: "git",
+    icon: git,
   },
   {
     name: "docker",
@@ -173,88 +176,130 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Tour De Monde",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Our product is a tour management and booking system. Users will be able to find hotels, book reservations for activities, and find flights that work with their travel. There are also admins that can be used to create a company and post their possible bookings for users to buy and use.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "postgresql",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "flask",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Sourolio10/TourdeMonde",
   },
   {
-    name: "Car Rent",
+    name: "Cine Tracker",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "The purpose of this project is to develop a web application that utilizes a movie dataset from Kaggle to allow users to browse through a library of movies and view various visualizations that show trends in movies. It provides users the flexibility to maintain a watchlist and a list of favorite movies.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "sqlite",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "flask",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: cinema,
+    source_code_link: "https://github.com/Sourolio10/movie-mania/",
   },
   {
-    name: "Job IT",
+    name: "Stock Hive",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "StockHive is a stock data forecasting and visualization webapp. It is mostly directed towards users who want to invest in the best stocks without much knowledge of the stock market. The application utilizes advanced time series forecasting techniques on the stock data and produces predictions.",
     tags: [
       {
-        name: "react",
+        name: "timeseries",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "stocks",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "arima",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Sourolio10/stockhive/",
   },
   {
-    name: "Trip Guide",
+    name: "Chat with Genie",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The Chat with Genie Project for the Morgan Stanley Code-to-Give Hackathon aims to create a communication platform connecting families across states, promoting those not yet in the program. It enables eligible children in Georgia to make wishes while fostering family communication.",
     tags: [
       {
-        name: "nextjs",
+        name: "openai",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "gpt3",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "rubyonrails",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Sourolio10/makeawish-chatgpt--webapp/",
+  },
+  {
+    name: "Customer churn analysis",
+    description:
+      "Power BI and DAX were utilized to analyze customer churn, achieving 95% accuracy in predicting churn and identifying key patterns, and visualizing them with the in-built PowerBI tools. This resulted in actionable recommendations and a 20% reduction in churn rate within six months.",
+    tags: [
+      {
+        name: "churn",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "powerbi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "analysis",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: churn,
+    source_code_link: "https://github.com/Sourolio10/makeawish-chatgpt--webapp/",
+  },
+  {
+    name: "Real-time American Sign Language Detector",
+    description:
+      "This project developed an LSTM model trained on a dataset of 42 hand coordinates per frame to classify hand gestures in real-time, achieving an impressive 83% accuracy. The findings were published in the IJCSE journal in August 2021.",
+    tags: [
+      {
+        name: "opencv",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mediapipe",
+        color: "green-text-gradient",
+      },
+      {
+        name: "rnn",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sign,
+    source_code_link: "https://github.com/Sourolio10/Sign-language-recognition-with-RNN-and-Mediapipe/",
   },
 ];
 
